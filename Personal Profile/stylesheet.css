@@ -1,57 +1,294 @@
+
+				/*All below for Home page*/
+							
 .backgroundImage	{
 		background-image:url('devRoom3.1.jpg');
 		background-repeat: no-repeat;
-		padding-bottom: 40%;
+		padding-bottom: 10%;
 		background-size: 100%;
-		margin-bottom: 40%;
 }
 
 .centerText 	{
-		margin-top: 20%;
+		margin-top: 18%;
 }
 
 .openerFont 	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		font-size: 40px;
+		color: #e1eaf2;
+		text-shadow: 0 0 5px #000;
+		
+}
+
+.openerFont2 	{
 		font-family: Lucida Console;
-		font-size: 50px;
+		font-size: 60px;
 		font-weight: bold;
 		color: #e1eaf2;
+		text-shadow: 0 0 5px #000;
+}
+
+.head1 	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		font-weight: bold;
+		color: #4d5256;
+}
+
+.head2 	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		font-weight: bold;
+		color: #4d5256;
+}
+
+.para1 	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		color: #858f96;
+}		
+
+.button22 {
+		border: none;
+		color: white;
+		font-family: Lucida Console;
+		padding: 12px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		-webkit-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+		cursor: pointer;
+}
+
+.button2 {
+		color: #4d5256; 
+		border: 2px solid #4d5256;
+}
+
+.button2:hover {
+		background-color: white;
+		color: #262828;
+}
+
+				/*All below for Projects page*/
+
+.backgroundImage2	{
+		background-image:url('devRoom1.jpg');
+		background-repeat: no-repeat;
+		padding-bottom: 10%;
+		background-size: 100%;
+		
+}
+
+.centerText2 	{
+		margin-top: 20.5%;
+}
+
+.portFont 	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		font-size: 30px;
+		color: #e1eaf2;
+		text-shadow: 0 0 5px #000;
+}
+
+.box1	{
+		background-color: #eaeced;
+		font-family: Tahoma, Geneva, Sans-serif;
+		font-weight: bold;
+		color: #4d5256;		
+}
+
+.box2	{
+		background-color: #3f4756;
+}
+
+.para2 	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		color: #858f96;
+		font-size: 17px;
+}
+
+				/*All below for About page*/
+
+.backgroundImage3	{
+		background-image:url('water.jpg');
+		background-repeat: no-repeat;
+		padding-bottom: 10%;
+		background-size: 100%;
+}
+
+.picBack 	{
+		background-color: #eaeced;
+}
+
+.centerText3 	{
+		margin-top: 21%;
+}
+
+				/*All below for Resume page*/
+
+.backgroundImage4	{
+		background-image:url('devRoom3.jpg');
+		background-repeat: no-repeat;
+		padding-bottom: 10%;
+		background-size: 100%;
+}
+
+.centerText4 	{
+		margin-top: 15%;
+}
+
+.button {
+		background: transparent;
+		border: none;
+		color: white;
+		font-family: Lucida Console;
+		padding: 12px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		-webkit-transition-duration: 0.6s;
+		transition-duration: 0.6s;
+		cursor: pointer;
+}
+
+.button1 {
+		background-color: transparent; 
+		color: #e1eaf2; 
+		border: 2px solid #4d5256;
+}
+
+.button1:hover {
+		background-color: #e1eaf2;
+		color: #262828;
 }
 
 
+				/*All below for Contact page*/
 
+.backgroundImage5	{
+		background-image:url('devRoom2.jpg');
+		background-repeat: no-repeat;
+		padding-bottom: 10%;
+		background-size: 100%;
+}
 
+.head3 	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #4d5256;
+}
 
+.fa {
+		padding: 10px;
+		font-size: 22px;
+		width: 50px;
+		text-align: center;
+		text-decoration: none;
+		margin: 2px 2px;
+		-webkit-transition: width 2s, height 4s;
+		transition: width 2s, height 4s;
+}
 
+.fa:hover {
+		opacity: 0.7;
+		text-decoration: none;
+		font-size: 22px;
+}
 
+.fa-facebook {
+		background: transparent;
+		color: #3B5998;
+}
 
+.fa-twitter {
+		background: transparent;
+		color: #55ACEE;
+}
 
+.fa-instagram {
+		background: transparent;
+		color: #e06e28;
+}
 
+.fa-linkedin {
+		background: transparent;
+		color: #007bb5;
+}
 
+.fa-snapchat-ghost {
+		background: #eae738;
+		color: #858f96;
+		font-size: 20px;
+}
 
+.fa1:hover {
+		opacity: 0.7;
+		text-decoration: none;
+		font-size: 20px;
+}
 
+.fa-pinterest {
+		background: transparent;
+		color: #cb2027;
+}
 
+textarea {
+		width: 100%;
+		height: 150px;
+		padding: 12px 20px;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		border-radius: 4px;
+		background-color: #f8f8f8;
+		font-size: 16px;
+		resize: none;
+}
 
+placeholder {
+		font-family: Tahoma, Geneva, Sans-serif;
+		color: #858f96;
+		font-size: 16px;
+}
 
+footer {
+		background-color:#101010;	
+}
 
+.link {
+		font-family: Tahoma, Geneva, Sans-serif;
+		color: #858f96;
+		font-size: 17px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.link:hover 	{
+		opacity: 0.7;
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+}
+		
+.active	{
+		font-family: Tahoma, Geneva, Sans-serif;
+		color: #858f96;
+		font-size: 17px;
+}	
+	
+.foot1 	{
+		font-family: Lucida Console;
+		font-size: 20px;
+		color: #858f96;
+}	
+	
+.foot2 	{
+		font-family: Lucida Console;
+		font-size: 10px;
+		color: #858f96;
+}
+		
+		
 
 
